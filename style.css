@@ -7,7 +7,7 @@ body {
 }
 
 #postbody {
-  z-index: -30;
+  z-index: 0;
   padding-top: 2%;
   padding-bottom: 2%;
   position: absolute;
@@ -17,6 +17,18 @@ body {
   top: 20%;
   background-color: rgba(0, 0, 0, 0.8);
   font-family: 'Lato', sans-serif;
+}
+
+.button {
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-width: 5px;
+  border-style: solid;
+  color: #FFF;
 }
 
 hr {
@@ -65,6 +77,7 @@ h1 {
 /*| Navigation |*/
 
 nav {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
