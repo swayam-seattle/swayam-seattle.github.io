@@ -78,6 +78,7 @@ h1 {
 /*| Navigation |*/
 
 nav {
+    font-weight: 600;
     z-index: 1;
     position: fixed;
     top: 0;
