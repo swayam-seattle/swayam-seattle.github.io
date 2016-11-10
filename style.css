@@ -6,6 +6,13 @@ body {
     background-size: cover;
 }
 
+.aboutimg {
+  height: 40%;
+  border-width: 5%;
+  border-style: solid;
+
+}
+
 #postbody {
   z-index: 0;
   padding-top: 2%;
